@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8" ?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:eocdcio="http://earth.esa.int/eocdcio" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd http://earth.esa.int/eocdcio http://evdc.nilu.no/oaicat/xsd/eocdcio.xsd"><responseDate>2017-05-08T14:08:47Z</responseDate><request verb="ListRecords" set="dcio" from="2017-05-03" metadataPrefix="eocdcio" until="2017-05-07">http://evdc.nilu.no/oaicat/OAIHandler</request><ListRecords>
+<record><header><identifier>urn:x-dcio:evdc:1198939</identifier><datestamp>2017-05-03</datestamp><setSpec>dcio</setSpec><setSpec>eocdcio</setSpec></header><metadata><eocdcio:CorrelativeProduct xmlns:eocdcio="http://earth.esa.int/eocdcio" xmlns:str="http://exslt.org/strings" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="EVDC_1198939" version="0.8.0">
+<gml:metaDataProperty>
+<eocdcio:CorrelativeProductMetaData>
+<eocdcio:fileIdentifier>urn:x-eocdcio:evdc:1198939</eocdcio:fileIdentifier>
+<eocdcio:metaDataUpdateDate>2017-05-03T12:04:45Z</eocdcio:metaDataUpdateDate>
+<eocdcio:fileGenerationDate>2017-05-02T09:49:16Z</eocdcio:fileGenerationDate>
+<eocdcio:description>Routine stratospheric temperature profile from LIDAR at DWD-Hohenpeissenberg Observatory, Germany. See: doi:10.5194/amt-2-125-2009</eocdcio:description>
+<eocdcio:discipline>ATMOSPHERIC.CHEMISTRY</eocdcio:discipline>
+<eocdcio:acquisitionType>REMOTE.SENSING</eocdcio:acquisitionType>
+<eocdcio:dataLevel></eocdcio:dataLevel>
+<eocdcio:dataVariable>ALTITUDE||</eocdcio:dataVariable>
+<eocdcio:dataVariable>ALTITUDE|INDEPENDENT|INITIALIZATION</eocdcio:dataVariable>
+<eocdcio:dataVariable>ALTITUDE|INDEPENDENT|NORMALIZATION</eocdcio:dataVariable>
+<eocdcio:dataVariable>ALTITUDE.INSTRUMENT||</eocdcio:dataVariable>
+<eocdcio:dataVariable>DATETIME||</eocdcio:dataVariable>
+<eocdcio:dataVariable>DATETIME.START||</eocdcio:dataVariable>
+<eocdcio:dataVariable>DATETIME.STOP||</eocdcio:dataVariable>
+<eocdcio:dataVariable>INTEGRATION.TIME||</eocdcio:dataVariable>
+<eocdcio:dataVariable>LATITUDE.INSTRUMENT||</eocdcio:dataVariable>
+<eocdcio:dataVariable>LONGITUDE.INSTRUMENT||</eocdcio:dataVariable>
+<eocdcio:dataVariable>NUMBER.DENSITY|BACKSCATTER|</eocdcio:dataVariable>
+<eocdcio:dataVariable>NUMBER.DENSITY|BACKSCATTER|UNCERTAINTY.COMBINED.STANDARD</eocdcio:dataVariable>
+<eocdcio:dataVariable>NUMBER.DENSITY|BACKSCATTER|UNCERTAINTY.RANDOM.STANDARD</eocdcio:dataVariable>
+<eocdcio:dataVariable>NUMBER.DENSITY|BACKSCATTER|UNCERTAINTY.SYSTEMATIC.STANDARD</eocdcio:dataVariable>
+<eocdcio:dataVariable>NUMBER.DENSITY|INDEPENDENT|</eocdcio:dataVariable>
+<eocdcio:dataVariable>NUMBER.DENSITY|INDEPENDENT|SOURCE</eocdcio:dataVariable>
+<eocdcio:dataVariable>PRESSURE|INDEPENDENT|</eocdcio:dataVariable>
+<eocdcio:dataVariable>PRESSURE|INDEPENDENT|SOURCE</eocdcio:dataVariable>
+<eocdcio:dataVariable>TEMPERATURE|BACKSCATTER|</eocdcio:dataVariable>
+<eocdcio:dataVariable>TEMPERATURE|BACKSCATTER|RESOLUTION.ALTITUDE.DF.CUTOFF</eocdcio:dataVariable>
+<eocdcio:dataVariable>TEMPERATURE|BACKSCATTER|RESOLUTION.ALTITUDE.DF.NORMALIZED.FREQUENCY</eocdcio:dataVariable>
+<eocdcio:dataVariable>TEMPERATURE|BACKSCATTER|RESOLUTION.ALTITUDE.DF.TRANSFER.FUNCTION</eocdcio:dataVariable>
+<eocdcio:dataVariable>TEMPERATURE|BACKSCATTER|RESOLUTION.ALTITUDE.IMPULSE.RESPONSE</eocdcio:dataVariable>
+<eocdcio:dataVariable>TEMPERATURE|BACKSCATTER|RESOLUTION.ALTITUDE.IMPULSE.RESPONSE.FWHM</eocdcio:dataVariable>
+<eocdcio:dataVariable>TEMPERATURE|BACKSCATTER|UNCERTAINTY.COMBINED.STANDARD</eocdcio:dataVariable>
+<eocdcio:dataVariable>TEMPERATURE|BACKSCATTER|UNCERTAINTY.RANDOM.STANDARD</eocdcio:dataVariable>
+<eocdcio:dataVariable>TEMPERATURE|BACKSCATTER|UNCERTAINTY.SYSTEMATIC.STANDARD</eocdcio:dataVariable>
+<eocdcio:origin>EXPERIMENTAL</eocdcio:origin>
+<eocdcio:originator>
+<eocdcio:PersonIdentification>
+<eocdcio:personName>Steinbrecht,Wolfgang</eocdcio:personName>
+</eocdcio:PersonIdentification>
+</eocdcio:originator>
+<eocdcio:investigator>
+<eocdcio:PersonIdentification>
+<eocdcio:personName>Steinbrecht,Wolfgang</eocdcio:personName>
+</eocdcio:PersonIdentification>
+</eocdcio:investigator>
+<eocdcio:submitter>
+<eocdcio:PersonIdentification>
+<eocdcio:personName>Steinbrecht,Wolfgang</eocdcio:personName>
+</eocdcio:PersonIdentification>
+</eocdcio:submitter>
+</eocdcio:CorrelativeProductMetaData>
+</gml:metaDataProperty>
+<gml:validTime>
+<gml:TimePeriod gml:id="EVDC_1198939_T">
+<gml:beginPosition>2017-04-29T19:59:10Z</gml:beginPosition>
+<gml:endPosition>2017-04-30T03:12:23Z</gml:endPosition>
+</gml:TimePeriod>
+</gml:validTime>
+<gml:using>
+<eocdcio:CorrelativeProductEquipment gml:id="EVDC_1198939_E">
+<eocdcio:platform>GROUNDBASED</eocdcio:platform>
+<eocdcio:instrumentModelType>LIDAR.TEMPERATURE</eocdcio:instrumentModelType>
+<eocdcio:instrumentModelOrganisation>DWD</eocdcio:instrumentModelOrganisation>
+<eocdcio:instrumentModelIdentifier>001</eocdcio:instrumentModelIdentifier>
+</eocdcio:CorrelativeProductEquipment>
+</gml:using>
+<gml:target>
+<eocdcio:CorrelativeProductSpatialExtent gml:id="EVDC_1198939_SE">
+<eocdcio:fixedLocationName>HOHENPEISSENBERG</eocdcio:fixedLocationName>
+<eocdcio:pointLocation>
+<gml:Point gml:id="EVDC_1198939_P1" srsName="CRS:84">
+<gml:pos>47.8 11.02</gml:pos>
+</gml:Point>
+</eocdcio:pointLocation>
+<eocdcio:lowestAltitude>9825.0</eocdcio:lowestAltitude>
+<eocdcio:highestAltitude>73680.0</eocdcio:highestAltitude>
+</eocdcio:CorrelativeProductSpatialExtent>
+</gml:target>
+<gml:resultOf>
+<eocdcio:CorrelativeProductResult gml:id="EVDC_1198939_PR">
+<eocdcio:product>
+<eocdcio:ProductInformation>
+<eocdcio:onlineResourceURL>ftp://zardoz.nilu.no/nadir/evdc/data/groundbased/lidar.temperature/hohenpeissenberg/groundbased_lidar.temperature_dwd001_hohenpeissenberg_20170429t195910z_20170430t031223z_001.hdf</eocdcio:onlineResourceURL>
+<eocdcio:fileAccessConstraints>This file may only be accessed by ....</eocdcio:fileAccessConstraints>
+<eocdcio:dataFileHash>9e107d9d372bb6826bd81d3542a419d6</eocdcio:dataFileHash>
+<eocdcio:fileFormat/>
+<eocdcio:cloudCoverPercentage uom="%">12</eocdcio:cloudCoverPercentage>
+<eocdcio:snowCoverPercentage uom="%">0</eocdcio:snowCoverPercentage>
+</eocdcio:ProductInformation>
+</eocdcio:product>
+</eocdcio:CorrelativeProductResult>
+</gml:resultOf>
+</eocdcio:CorrelativeProduct>
+</metadata></record>
+<record><header><identifier>urn:x-dcio:evdc:1198940</identifier><datestamp>2017-05-03</datestamp><setSpec>dcio</setSpec><setSpec>eocdcio</setSpec></header><metadata><eocdcio:CorrelativeProduct xmlns:eocdcio="http://earth.esa.int/eocdcio" xmlns:str="http://exslt.org/strings" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="EVDC_1198940" version="0.8.0">
+<gml:metaDataProperty>
+<eocdcio:CorrelativeProductMetaData>
+<eocdcio:fileIdentifier>urn:x-eocdcio:evdc:1198940</eocdcio:fileIdentifier>
+<eocdcio:metaDataUpdateDate>2017-05-03T12:04:49Z</eocdcio:metaDataUpdateDate>
+<eocdcio:fileGenerationDate>2017-05-02T08:11:02Z</eocdcio:fileGenerationDate>
+<eocdcio:description>FTIR vmr vertical profile data of CH4 at Zugspitze (Germany)</eocdcio:description>
+<eocdcio:discipline>ATMOSPHERIC.CHEMISTRY</eocdcio:discipline>
+<eocdcio:acquisitionType>REMOTE.SENSING</eocdcio:acquisitionType>
+<eocdcio:dataLevel></eocdcio:dataLevel>
+<eocdcio:dataVariable>ALTITUDE||</eocdcio:dataVariable>
+<eocdcio:dataVariable>ALTITUDE.BOUNDARIES||</eocdcio:dataVariable>
+<eocdcio:dataVariable>ALTITUDE.INSTRUMENT||</eocdcio:dataVariable>
+<eocdcio:dataVariable>ANGLE.SOLAR|AZIMUTH|</eocdcio:dataVariable>
+<eocdcio:dataVariable>ANGLE.SOLAR|ZENITH.ASTRONOMICAL|</eocdcio:dataVariable>
+<eocdcio:dataVariable>CH4.COLUMN|ABSORPTION.SOLAR|</eocdcio:dataVariable>
+<eocdcio:dataVariable>CH4.COLUMN|ABSORPTION.SOLAR|APRIORI</eocdcio:dataVariable>
+<eocdcio:dataVariable>CH4.COLUMN|ABSORPTION.SOLAR|AVK</eocdcio:dataVariable>
+<eocdcio:dataVariable>CH4.COLUMN|ABSORPTION.SOLAR|UNCERTAINTY.RANDOM.STANDARD</eocdcio:dataVariable>
+<eocdcio:dataVariable>CH4.COLUMN|ABSORPTION.SOLAR|UNCERTAINTY.SYSTEMATIC.STANDARD</eocdcio:dataVariable>
+<eocdcio:dataVariable>CH4.COLUMN.PARTIAL|ABSORPTION.SOLAR|</eocdcio:dataVariable>
+<eocdcio:dataVariable>CH4.COLUMN.PARTIAL|ABSORPTION.SOLAR|APRIORI</eocdcio:dataVariable>
+<eocdcio:dataVariable>CH4.MIXING.RATIO.VOLUME|ABSORPTION.SOLAR|</eocdcio:dataVariable>
+<eocdcio:dataVariable>CH4.MIXING.RATIO.VOLUME|ABSORPTION.SOLAR|APRIORI</eocdcio:dataVariable>
+<eocdcio:dataVariable>CH4.MIXING.RATIO.VOLUME|ABSORPTION.SOLAR|AVK</eocdcio:dataVariable>
+<eocdcio:dataVariable>CH4.MIXING.RATIO.VOLUME|ABSORPTION.SOLAR|UNCERTAINTY.RANDOM.COVARIANCE</eocdcio:dataVariable>
+<eocdcio:dataVariable>CH4.MIXING.RATIO.VOLUME|ABSORPTION.SOLAR|UNCERTAINTY.SYSTEMATIC.COVARIANCE</eocdcio:dataVariable>
+<eocdcio:dataVariable>DATETIME||</eocdcio:dataVariable>
+<eocdcio:dataVariable>H2O.COLUMN|ABSORPTION.SOLAR|</eocdcio:dataVariable>
+<eocdcio:dataVariable>H2O.MIXING.RATIO.VOLUME|ABSORPTION.SOLAR|</eocdcio:dataVariable>
+<eocdcio:dataVariable>INTEGRATION.TIME||</eocdcio:dataVariable>
+<eocdcio:dataVariable>LATITUDE.INSTRUMENT||</eocdcio:dataVariable>
+<eocdcio:dataVariable>LONGITUDE.INSTRUMENT||</eocdcio:dataVariable>
+<eocdcio:dataVariable>PRESSURE|INDEPENDENT|</eocdcio:dataVariable>
+<eocdcio:dataVariable>SURFACE.PRESSURE|INDEPENDENT|</eocdcio:dataVariable>
+<eocdcio:dataVariable>SURFACE.TEMPERATURE|INDEPENDENT|</eocdcio:dataVariable>
+<eocdcio:dataVariable>TEMPERATURE|INDEPENDENT|</eocdcio:dataVariable>
+<eocdcio:origin>EXPERIMENTAL</eocdcio:origin>
+<eocdcio:originator>
+<eocdcio:PersonIdentification>
+<eocdcio:personName>Rettinger,Markus</eocdcio:personName>
+</eocdcio:PersonIdentification>
+</eocdcio:originator>
+<eocdcio:investigator>
+<eocdcio:PersonIdentification>
+<eocdcio:personName>Sussmann,Ralf</eocdcio:personName>
+</eocdcio:PersonIdentification>
+</eocdcio:investigator>
+<eocdcio:submitter>
+<eocdcio:PersonIdentification>
+<eocdcio:personName>Rettinger,Markus</eocdcio:personName>
+</eocdcio:PersonIdentification>
+</eocdcio:submitter>
+</eocdcio:CorrelativeProductMetaData>
+</gml:metaDataProperty>
+<gml:validTime>
+<gml:TimePeriod gml:id="EVDC_1198940_T">
+<gml:beginPosition>2016-06-07T05:51:37Z</gml:beginPosition>
+<gml:endPosition>2016-12-30T14:17:30Z</gml:endPosition>
+</gml:TimePeriod>
+</gml:validTime>
+<gml:using>
+<eocdcio:CorrelativeProductEquipment gml:id="EVDC_1198940_E">
+<eocdcio:platform>GROUNDBASED</eocdcio:platform>
+<eocdcio:instrumentModelType>FTIR.CH4</eocdcio:instrumentModelType>
+<eocdcio:instrumentModelOrganisation>KIT.IMK.IFU</eocdcio:instrumentModelOrganisation>
+<eocdcio:instrumentModelIdentifier>001</eocdcio:instrumentModelIdentifier>
+</eocdcio:CorrelativeProductEquipment>
+</gml:using>
+<gml:target>
+<eocdcio:CorrelativeProductSpatialExtent gml:id="EVDC_1198940_SE">
+<eocdcio:fixedLocationName>ZUGSPITZE</eocdcio:fixedLocationName>
+<eocdcio:pointLocation>
+<gml:Point gml:id="EVDC_1198940_P1" srsName="CRS:84">
+<gml:pos>47.4237 10.9836</gml:pos>
+</gml:Point>
+</eocdcio:pointLocation>
+<eocdcio:lowestAltitude>2957.0</eocdcio:lowestAltitude>
+<eocdcio:highestAltitude>120000.0</eocdcio:highestAltitude>
+</eocdcio:CorrelativeProductSpatialExtent>
+</gml:target>
+<gml:resultOf>
+<eocdcio:CorrelativeProductResult gml:id="EVDC_1198940_PR">
+<eocdcio:product>
+<eocdcio:ProductInformation>
+<eocdcio:onlineResourceURL>ftp://zardoz.nilu.no/nadir/evdc/data/groundbased/ftir.ch4/zugspitze/groundbased_ftir.ch4_kit.imk.ifu001_zugspitze_20160607t055137z_20161230t141730z_003.hdf</eocdcio:onlineResourceURL>
+<eocdcio:fileAccessConstraints>This file may only be accessed by ....</eocdcio:fileAccessConstraints>
+<eocdcio:dataFileHash>9e107d9d372bb6826bd81d3542a419d6</eocdcio:dataFileHash>
+<eocdcio:fileFormat/>
+<eocdcio:cloudCoverPercentage uom="%">12</eocdcio:cloudCoverPercentage>
+<eocdcio:snowCoverPercentage uom="%">0</eocdcio:snowCoverPercentage>
+</eocdcio:ProductInformation>
+</eocdcio:product>
+</eocdcio:CorrelativeProductResult>
+</gml:resultOf>
+</eocdcio:CorrelativeProduct>
+</metadata></record>
+<record><header><identifier>urn:x-dcio:evdc:1198941</identifier><datestamp>2017-05-03</datestamp><setSpec>dcio</setSpec><setSpec>eocdcio</setSpec></header><metadata><eocdcio:CorrelativeProduct xmlns:eocdcio="http://earth.esa.int/eocdcio" xmlns:str="http://exslt.org/strings" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="EVDC_1198941" version="0.8.0">
+<gml:metaDataProperty>
+<eocdcio:CorrelativeProductMetaData>
+<eocdcio:fileIdentifier>urn:x-eocdcio:evdc:1198941</eocdcio:fileIdentifier>
+<eocdcio:metaDataUpdateDate>2017-05-03T12:04:58Z</eocdcio:metaDataUpdateDate>
+<eocdcio:fileGenerationDate>2017-05-02T09:54:30Z</eocdcio:fileGenerationDate>
+<eocdcio:description>Routine stratospheric temperature profile from LIDAR at DWD-Hohenpeissenberg Observatory, Germany. See: doi:10.5194/amt-2-125-2009</eocdcio:description>
+<eocdcio:discipline>ATMOSPHERIC.CHEMISTRY</eocdcio:discipline>
+<eocdcio:acquisitionType>REMOTE.SENSING</eocdcio:acquisitionType>
+<eocdcio:dataLevel></eocdcio:dataLevel>
+<eocdcio:dataVariable>ALTITUDE||</eocdcio:dataVariable>
+<eocdcio:dataVariable>ALTITUDE|INDEPENDENT|INITIALIZATION</eocdcio:dataVariable>
+<eocdcio:dataVariable>ALTITUDE|INDEPENDENT|NORMALIZATION</eocdcio:dataVariable>
+<eocdcio:dataVariable>ALTITUDE.INSTRUMENT||</eocdcio:dataVariable>
+<eocdcio:dataVariable>DATETIME||</eocdcio:dataVariable>
+<eocdcio:dataVariable>DATETIME.START||</eocdcio:dataVariable>
+<eocdcio:dataVariable>DATETIME.STOP||</eocdcio:dataVariable>
+<eocdcio:dataVariable>INTEGRATION.TIME||</eocdcio:dataVariable>
+<eocdcio:dataVariable>LATITUDE.INSTRUMENT||</eocdcio:dataVariable>
+<eocdcio:dataVariable>LONGITUDE.INSTRUMENT||</eocdcio:dataVariable>
+<eocdcio:dataVariable>NUMBER.DENSITY|BACKSCATTER|</eocdcio:dataVariable>
+<eocdcio:dataVariable>NUMBER.DENSITY|BACKSCATTER|UNCERTAINTY.COMBINED.STANDARD</eocdcio:dataVariable>
+<eocdcio:dataVariable>NUMBER.DENSITY|BACKSCATTER|UNCERTAINTY.RANDOM.STANDARD</eocdcio:dataVariable>
+<eocdcio:dataVariable>NUMBER.DENSITY|BACKSCATTER|UNCERTAINTY.SYSTEMATIC.STANDARD</eocdcio:dataVariable>
+<eocdcio:dataVariable>NUMBER.DENSITY|INDEPENDENT|</eocdcio:dataVariable>
+<eocdcio:dataVariable>NUMBER.DENSITY|INDEPENDENT|SOURCE</eocdcio:dataVariable>
+<eocdcio:dataVariable>PRESSURE|INDEPENDENT|</eocdcio:dataVariable>
+<eocdcio:dataVariable>PRESSURE|INDEPENDENT|SOURCE</eocdcio:dataVariable>
+<eocdcio:dataVariable>TEMPERATURE|BACKSCATTER|</eocdcio:dataVariable>
+<eocdcio:dataVariable>TEMPERATURE|BACKSCATTER|RESOLUTION.ALTITUDE.DF.CUTOFF</eocdcio:dataVariable>
+<eocdcio:dataVariable>TEMPERATURE|BACKSCATTER|RESOLUTION.ALTITUDE.DF.NORMALIZED.FREQUENCY</eocdcio:dataVariable>
+<eocdcio:dataVariable>TEMPERATURE|BACKSCATTER|RESOLUTION.ALTITUDE.DF.TRANSFER.FUNCTION</eocdcio:dataVariable>
+<eocdcio:dataVariable>TEMPERATURE|BACKSCATTER|RESOLUTION.ALTITUDE.IMPULSE.RESPONSE</eocdcio:dataVariable>
+<eocdcio:dataVariable>TEMPERATURE|BACKSCATTER|RESOLUTION.ALTITUDE.IMPULSE.RESPONSE.FWHM</eocdcio:dataVariable>
+<eocdcio:dataVariable>TEMPERATURE|BACKSCATTER|UNCERTAINTY.COMBINED.STANDARD</eocdcio:dataVariable>
+<eocdcio:dataVariable>TEMPERATURE|BACKSCATTER|UNCERTAINTY.RANDOM.STANDARD</eocdcio:dataVariable>
+<eocdcio:dataVariable>TEMPERATURE|BACKSCATTER|UNCERTAINTY.SYSTEMATIC.STANDARD</eocdcio:dataVariable>
+<eocdcio:origin>EXPERIMENTAL</eocdcio:origin>
+<eocdcio:originator>
+<eocdcio:PersonIdentification>
+<eocdcio:personName>Steinbrecht,Wolfgang</eocdcio:personName>
+</eocdcio:PersonIdentification>
+</eocdcio:originator>
+<eocdcio:investigator>
+<eocdcio:PersonIdentification>
+<eocdcio:personName>Steinbrecht,Wolfgang</eocdcio:personName>
+</eocdcio:PersonIdentification>
+</eocdcio:investigator>
+<eocdcio:submitter>
+<eocdcio:PersonIdentification>
+<eocdcio:personName>Steinbrecht,Wolfgang</eocdcio:personName>
+</eocdcio:PersonIdentification>
+</eocdcio:submitter>
+</eocdcio:CorrelativeProductMetaData>
+</gml:metaDataProperty>
+<gml:validTime>
+<gml:TimePeriod gml:id="EVDC_1198941_T">
+<gml:beginPosition>2017-04-30T19:56:16Z</gml:beginPosition>
+<gml:endPosition>2017-05-01T03:09:20Z</gml:endPosition>
+</gml:TimePeriod>
+</gml:validTime>
+<gml:using>
+<eocdcio:CorrelativeProductEquipment gml:id="EVDC_1198941_E">
+<eocdcio:platform>GROUNDBASED</eocdcio:platform>
+<eocdcio:instrumentModelType>LIDAR.TEMPERATURE</eocdcio:instrumentModelType>
+<eocdcio:instrumentModelOrganisation>DWD</eocdcio:instrumentModelOrganisation>
+<eocdcio:instrumentModelIdentifier>001</eocdcio:instrumentModelIdentifier>
+</eocdcio:CorrelativeProductEquipment>
+</gml:using>
+<gml:target>
+<eocdcio:CorrelativeProductSpatialExtent gml:id="EVDC_1198941_SE">
+<eocdcio:fixedLocationName>HOHENPEISSENBERG</eocdcio:fixedLocationName>
+<eocdcio:pointLocation>
+<gml:Point gml:id="EVDC_1198941_P1" srsName="CRS:84">
+<gml:pos>47.8 11.02</gml:pos>
+</gml:Point>
+</eocdcio:pointLocation>
+<eocdcio:lowestAltitude>12820.0</eocdcio:lowestAltitude>
+<eocdcio:highestAltitude>70390.0</eocdcio:highestAltitude>
+</eocdcio:CorrelativeProductSpatialExtent>
+</gml:target>
+<gml:resultOf>
+<eocdcio:CorrelativeProductResult gml:id="EVDC_1198941_PR">
+<eocdcio:product>
+<eocdcio:ProductInformation>
+<eocdcio:onlineResourceURL>ftp://zardoz.nilu.no/nadir/evdc/data/groundbased/lidar.temperature/hohenpeissenberg/groundbased_lidar.temperature_dwd001_hohenpeissenberg_20170430t195616z_20170501t030920z_001.hdf</eocdcio:onlineResourceURL>
+<eocdcio:fileAccessConstraints>This file may only be accessed by ....</eocdcio:fileAccessConstraints>
+<eocdcio:dataFileHash>9e107d9d372bb6826bd81d3542a419d6</eocdcio:dataFileHash>
+<eocdcio:fileFormat/>
+<eocdcio:cloudCoverPercentage uom="%">12</eocdcio:cloudCoverPercentage>
+<eocdcio:snowCoverPercentage uom="%">0</eocdcio:snowCoverPercentage>
+</eocdcio:ProductInformation>
+</eocdcio:product>
+</eocdcio:CorrelativeProductResult>
+</gml:resultOf>
+</eocdcio:CorrelativeProduct>
+</metadata></record>
+<record><header><identifier>urn:x-dcio:evdc:1198942</identifier><datestamp>2017-05-03</datestamp><setSpec>dcio</setSpec><setSpec>eocdcio</setSpec></header><metadata><eocdcio:CorrelativeProduct xmlns:eocdcio="http://earth.esa.int/eocdcio" xmlns:str="http://exslt.org/strings" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="EVDC_1198942" version="0.8.0">
+<gml:metaDataProperty>
+<eocdcio:CorrelativeProductMetaData>
+<eocdcio:fileIdentifier>urn:x-eocdcio:evdc:1198942</eocdcio:fileIdentifier>
+<eocdcio:metaDataUpdateDate>2017-05-03T12:05:58Z</eocdcio:metaDataUpdateDate>
+<eocdcio:fileGenerationDate>2017-05-02T06:52:11Z</eocdcio:fileGenerationDate>
+<eocdcio:description>FTIR vmr vertical profile data of C2H6 at Zugspitze (Germany)</eocdcio:description>
+<eocdcio:discipline>ATMOSPHERIC.CHEMISTRY</eocdcio:discipline>
+<eocdcio:acquisitionType>REMOTE.SENSING</eocdcio:acquisitionType>
+<eocdcio:dataLevel></eocdcio:dataLevel>
+<eocdcio:dataVariable>ALTITUDE||</eocdcio:dataVariable>
+<eocdcio:dataVariable>ALTITUDE.BOUNDARIES||</eocdcio:dataVariable>
+<eocdcio:dataVariable>ALTITUDE.INSTRUMENT||</eocdcio:dataVariable>
+<eocdcio:dataVariable>ANGLE.SOLAR|AZIMUTH|</eocdcio:dataVariable>
+<eocdcio:dataVariable>ANGLE.SOLAR|ZENITH.ASTRONOMICAL|</eocdcio:dataVariable>
+<eocdcio:dataVariable>C2H6.COLUMN|ABSORPTION.SOLAR|</eocdcio:dataVariable>
+<eocdcio:dataVariable>C2H6.COLUMN|ABSORPTION.SOLAR|APRIORI</eocdcio:dataVariable>
+<eocdcio:dataVariable>C2H6.COLUMN|ABSORPTION.SOLAR|AVK</eocdcio:dataVariable>
+<eocdcio:dataVariable>C2H6.COLUMN|ABSORPTION.SOLAR|UNCERTAINTY.RANDOM.STANDARD</eocdcio:dataVariable>
+<eocdcio:dataVariable>C2H6.COLUMN|ABSORPTION.SOLAR|UNCERTAINTY.SYSTEMATIC.STANDARD</eocdcio:dataVariable>
+<eocdcio:dataVariable>C2H6.COLUMN.PARTIAL|ABSORPTION.SOLAR|</eocdcio:dataVariable>
+<eocdcio:dataVariable>C2H6.COLUMN.PARTIAL|ABSORPTION.SOLAR|APRIORI</eocdcio:dataVariable>
+<eocdcio:dataVariable>C2H6.MIXING.RATIO.VOLUME|ABSORPTION.SOLAR|</eocdcio:dataVariable>
+<eocdcio:dataVariable>C2H6.MIXING.RATIO.VOLUME|ABSORPTION.SOLAR|APRIORI</eocdcio:dataVariable>
+<eocdcio:dataVariable>C2H6.MIXING.RATIO.VOLUME|ABSORPTION.SOLAR|AVK</eocdcio:dataVariable>
+<eocdcio:dataVariable>C2H6.MIXING.RATIO.VOLUME|ABSORPTION.SOLAR|UNCERTAINTY.RANDOM.COVARIANCE</eocdcio:dataVariable>
+<eocdcio:dataVariable>C2H6.MIXING.RATIO.VOLUME|ABSORPTION.SOLAR|UNCERTAINTY.SYSTEMATIC.COVARIANCE</eocdcio:dataVariable>
+<eocdcio:dataVariable>DATETIME||</eocdcio:dataVariable>
+<eocdcio:dataVariable>H2O.COLUMN|ABSORPTION.SOLAR|</eocdcio:dataVariable>
+<eocdcio:dataVariable>H2O.MIXING.RATIO.VOLUME|ABSORPTION.SOLAR|</eocdcio:dataVariable>
+<eocdcio:dataVariable>INTEGRATION.TIME||</eocdcio:dataVariable>
+<eocdcio:dataVariable>LATITUDE.INSTRUMENT||</eocdcio:dataVariable>
+<eocdcio:dataVariable>LONGITUDE.INSTRUMENT||</eocdcio:dataVariable>
+<eocdcio:dataVariable>PRESSURE|INDEPENDENT|</eocdcio:dataVariable>
+<eocdcio:dataVariable>SURFACE.PRESSURE|INDEPENDENT|</eocdcio:dataVariable>
+<eocdcio:dataVariable>SURFACE.TEMPERATURE|INDEPENDENT|</eocdcio:dataVariable>
+<eocdcio:dataVariable>TEMPERATURE|INDEPENDENT|</eocdcio:dataVariable>
+<eocdcio:origin>EXPERIMENTAL</eocdcio:origin>
+<eocdcio:originator>
+<eocdcio:PersonIdentification>
+<eocdcio:personName>Rettinger,Markus</eocdcio:personName>
+</eocdcio:PersonIdentification>
+</eocdcio:originator>
+<eocdcio:investigator>
+<eocdcio:PersonIdentification>
+<eocdcio:personName>Sussmann,Ralf</eocdcio:personName>
+</eocdcio:PersonIdentification>
+</eocdcio:investigator>
+<eocdcio:submitter>
+<eocdcio:PersonIdentification>
+<eocdcio:personName>Rettinger,Markus</eocdcio:personName>
+</eocdcio:PersonIdentification>
+</eocdcio:submitter>
+</eocdcio:CorrelativeProductMetaData>
+</gml:metaDataProperty>
+<gml:validTime>
+<gml:TimePeriod gml:id="EVDC_1198942_T">
+<gml:beginPosition>2016-06-06T08:41:02Z</gml:beginPosition>
+<gml:endPosition>2016-12-30T14:17:30Z</gml:endPosition>
+</gml:TimePeriod>
+</gml:validTime>
+<gml:using>
+<eocdcio:CorrelativeProductEquipment gml:id="EVDC_1198942_E">
+<eocdcio:platform>GROUNDBASED</eocdcio:platform>
+<eocdcio:instrumentModelType>FTIR.C2H6</eocdcio:instrumentModelType>
+<eocdcio:instrumentModelOrganisation>KIT.IMK.IFU</eocdcio:instrumentModelOrganisation>
+<eocdcio:instrumentModelIdentifier>001</eocdcio:instrumentModelIdentifier>
+</eocdcio:CorrelativeProductEquipment>
+</gml:using>
+<gml:target>
+<eocdcio:CorrelativeProductSpatialExtent gml:id="EVDC_1198942_SE">
+<eocdcio:fixedLocationName>ZUGSPITZE</eocdcio:fixedLocationName>
+<eocdcio:pointLocation>
+<gml:Point gml:id="EVDC_1198942_P1" srsName="CRS:84">
+<gml:pos>47.4237 10.9836</gml:pos>
+</gml:Point>
+</eocdcio:pointLocation>
+<eocdcio:lowestAltitude>2957.0</eocdcio:lowestAltitude>
+<eocdcio:highestAltitude>120000.0</eocdcio:highestAltitude>
+</eocdcio:CorrelativeProductSpatialExtent>
+</gml:target>
+<gml:resultOf>
+<eocdcio:CorrelativeProductResult gml:id="EVDC_1198942_PR">
+<eocdcio:product>
+<eocdcio:ProductInformation>
+<eocdcio:onlineResourceURL>ftp://zardoz.nilu.no/nadir/evdc/data/groundbased/ftir.c2h6/zugspitze/groundbased_ftir.c2h6_kit.imk.ifu001_zugspitze_20160606t084102z_20161230t141730z_003.hdf</eocdcio:onlineResourceURL>
+<eocdcio:fileAccessConstraints>This file may only be accessed by ....</eocdcio:fileAccessConstraints>
+<eocdcio:dataFileHash>9e107d9d372bb6826bd81d3542a419d6</eocdcio:dataFileHash>
+<eocdcio:fileFormat/>
+<eocdcio:cloudCoverPercentage uom="%">12</eocdcio:cloudCoverPercentage>
+<eocdcio:snowCoverPercentage uom="%">0</eocdcio:snowCoverPercentage>
+</eocdcio:ProductInformation>
+</eocdcio:product>
+</eocdcio:CorrelativeProductResult>
+</gml:resultOf>
+</eocdcio:CorrelativeProduct>
+</metadata></record>
+<record><header><identifier>urn:x-dcio:evdc:1198943</identifier><datestamp>2017-05-03</datestamp><setSpec>dcio</setSpec><setSpec>eocdcio</setSpec></header><metadata><eocdcio:CorrelativeProduct xmlns:eocdcio="http://earth.esa.int/eocdcio" xmlns:str="http://exslt.org/strings" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="EVDC_1198943" version="0.8.0">
+<gml:metaDataProperty>
+<eocdcio:CorrelativeProductMetaData>
+<eocdcio:fileIdentifier>urn:x-eocdcio:evdc:1198943</eocdcio:fileIdentifier>
+<eocdcio:metaDataUpdateDate>2017-05-03T12:06:10Z</eocdcio:metaDataUpdateDate>
+<eocdcio:fileGenerationDate>2017-05-02T06:53:03Z</eocdcio:fileGenerationDate>
+<eocdcio:description>FTIR vmr vertical profile data of C2H6 at Zugspitze (Germany)</eocdcio:description>
+<eocdcio:discipline>ATMOSPHERIC.CHEMISTRY</eocdcio:discipline>
+<eocdcio:acquisitionType>REMOTE.SENSING</eocdcio:acquisitionType>
+<eocdcio:dataLevel></eocdcio:dataLevel>
+<eocdcio:dataVariable>ALTITUDE||</eocdcio:dataVariable>
+<eocdcio:dataVariable>ALTITUDE.BOUNDARIES||</eocdcio:dataVariable>
+<eocdcio:dataVariable>ALTITUDE.INSTRUMENT||</eocdcio:dataVariable>
+<eocdcio:dataVariable>ANGLE.SOLAR|AZIMUTH|</eocdcio:dataVariable>
+<eocdcio:dataVariable>ANGLE.SOLAR|ZENITH.ASTRONOMICAL|</eocdcio:dataVariable>
+<eocdcio:dataVariable>C2H6.COLUMN|ABSORPTION.SOLAR|</eocdcio:dataVariable>
+<eocdcio:dataVariable>C2H6.COLUMN|ABSORPTION.SOLAR|APRIORI</eocdcio:dataVariable>
+<eocdcio:dataVariable>C2H6.COLUMN|ABSORPTION.SOLAR|AVK</eocdcio:dataVariable>
+<eocdcio:dataVariable>C2H6.COLUMN|ABSORPTION.SOLAR|UNCERTAINTY.RANDOM.STANDARD</eocdcio:dataVariable>
+<eocdcio:dataVariable>C2H6.COLUMN|ABSORPTION.SOLAR|UNCERTAINTY.SYSTEMATIC.STANDARD</eocdcio:dataVariable>
+<eocdcio:dataVariable>C2H6.COLUMN.PARTIAL|ABSORPTION.SOLAR|</eocdcio:dataVariable>
+<eocdcio:dataVariable>C2H6.COLUMN.PARTIAL|ABSORPTION.SOLAR|APRIORI</eocdcio:dataVariable>
+<eocdcio:dataVariable>C2H6.MIXING.RATIO.VOLUME|ABSORPTION.SOLAR|</eocdcio:dataVariable>
+<eocdcio:dataVariable>C2H6.MIXING.RATIO.VOLUME|ABSORPTION.SOLAR|APRIORI</eocdcio:dataVariable>
+<eocdcio:dataVariable>C2H6.MIXING.RATIO.VOLUME|ABSORPTION.SOLAR|AVK</eocdcio:dataVariable>
+<eocdcio:dataVariable>C2H6.MIXING.RATIO.VOLUME|ABSORPTION.SOLAR|UNCERTAINTY.RANDOM.COVARIANCE</eocdcio:dataVariable>
+<eocdcio:dataVariable>C2H6.MIXING.RATIO.VOLUME|ABSORPTION.SOLAR|UNCERTAINTY.SYSTEMATIC.COVARIANCE</eocdcio:dataVariable>
+<eocdcio:dataVariable>DATETIME||</eocdcio:dataVariable>
+<eocdcio:dataVariable>H2O.COLUMN|ABSORPTION.SOLAR|</eocdcio:dataVariable>
+<eocdcio:dataVariable>H2O.MIXING.RATIO.VOLUME|ABSORPTION.SOLAR|</eocdcio:dataVariable>
+<eocdcio:dataVariable>INTEGRATION.TIME||</eocdcio:dataVariable>
+<eocdcio:dataVariable>LATITUDE.INSTRUMENT||</eocdcio:dataVariable>
+<eocdcio:dataVariable>LONGITUDE.INSTRUMENT||</eocdcio:dataVariable>
+<eocdcio:dataVariable>PRESSURE|INDEPENDENT|</eocdcio:dataVariable>
+<eocdcio:dataVariable>SURFACE.PRESSURE|INDEPENDENT|</eocdcio:dataVariable>
+<eocdcio:dataVariable>SURFACE.TEMPERATURE|INDEPENDENT|</eocdcio:dataVariable>
+<eocdcio:dataVariable>TEMPERATURE|INDEPENDENT|</eocdcio:dataVariable>
+<eocdcio:origin>EXPERIMENTAL</eocdcio:origin>
+<eocdcio:originator>
+<eocdcio:PersonIdentification>
+<eocdcio:personName>Rettinger,Markus</eocdcio:personName>
+</eocdcio:PersonIdentification>
+</eocdcio:originator>
+<eocdcio:investigator>
+<eocdcio:PersonIdentification>
+<eocdcio:personName>Sussmann,Ralf</eocdcio:personName>
+</eocdcio:PersonIdentification>
+</eocdcio:investigator>
+<eocdcio:submitter>
+<eocdcio:PersonIdentification>
+<eocdcio:personName>Rettinger,Markus</eocdcio:personName>
+</eocdcio:PersonIdentification>
+</eocdcio:submitter>
+</eocdcio:CorrelativeProductMetaData>
+</gml:metaDataProperty>
+<gml:validTime>
+<gml:TimePeriod gml:id="EVDC_1198943_T">
+<gml:beginPosition>2017-01-02T08:16:17Z</gml:beginPosition>
+<gml:endPosition>2017-03-23T09:07:26Z</gml:endPosition>
+</gml:TimePeriod>
+</gml:validTime>
+<gml:using>
+<eocdcio:CorrelativeProductEquipment gml:id="EVDC_1198943_E">
+<eocdcio:platform>GROUNDBASED</eocdcio:platform>
+<eocdcio:instrumentModelType>FTIR.C2H6</eocdcio:instrumentModelType>
+<eocdcio:instrumentModelOrganisation>KIT.IMK.IFU</eocdcio:instrumentModelOrganisation>
+<eocdcio:instrumentModelIdentifier>001</eocdcio:instrumentModelIdentifier>
+</eocdcio:CorrelativeProductEquipment>
+</gml:using>
+<gml:target>
+<eocdcio:CorrelativeProductSpatialExtent gml:id="EVDC_1198943_SE">
+<eocdcio:fixedLocationName>ZUGSPITZE</eocdcio:fixedLocationName>
+<eocdcio:pointLocation>
+<gml:Point gml:id="EVDC_1198943_P1" srsName="CRS:84">
+<gml:pos>47.4237 10.9836</gml:pos>
+</gml:Point>
+</eocdcio:pointLocation>
+<eocdcio:lowestAltitude>2957.0</eocdcio:lowestAltitude>
+<eocdcio:highestAltitude>120000.0</eocdcio:highestAltitude>
+</eocdcio:CorrelativeProductSpatialExtent>
+</gml:target>
+<gml:resultOf>
+<eocdcio:CorrelativeProductResult gml:id="EVDC_1198943_PR">
+<eocdcio:product>
+<eocdcio:ProductInformation>
+<eocdcio:onlineResourceURL>ftp://zardoz.nilu.no/nadir/evdc/data/groundbased/ftir.c2h6/zugspitze/groundbased_ftir.c2h6_kit.imk.ifu001_zugspitze_20170102t081617z_20170323t090726z_003.hdf</eocdcio:onlineResourceURL>
+<eocdcio:fileAccessConstraints>This file may only be accessed by ....</eocdcio:fileAccessConstraints>
+<eocdcio:dataFileHash>9e107d9d372bb6826bd81d3542a419d6</eocdcio:dataFileHash>
+<eocdcio:fileFormat/>
+<eocdcio:cloudCoverPercentage uom="%">12</eocdcio:cloudCoverPercentage>
+<eocdcio:snowCoverPercentage uom="%">0</eocdcio:snowCoverPercentage>
+</eocdcio:ProductInformation>
+</eocdcio:product>
+</eocdcio:CorrelativeProductResult>
+</gml:resultOf>
+</eocdcio:CorrelativeProduct>
+</metadata></record>
+<record><header><identifier>urn:x-dcio:evdc:1198944</identifier><datestamp>2017-05-03</datestamp><setSpec>dcio</setSpec><setSpec>eocdcio</setSpec></header><metadata><eocdcio:CorrelativeProduct xmlns:eocdcio="http://earth.esa.int/eocdcio" xmlns:str="http://exslt.org/strings" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="EVDC_1198944" version="0.8.0">
+<gml:metaDataProperty>
+<eocdcio:CorrelativeProductMetaData>
+<eocdcio:fileIdentifier>urn:x-eocdcio:evdc:1198944</eocdcio:fileIdentifier>
+<eocdcio:metaDataUpdateDate>2017-05-03T12:06:17Z</eocdcio:metaDataUpdateDate>
+<eocdcio:fileGenerationDate>2017-05-02T09:54:30Z</eocdcio:fileGenerationDate>
+<eocdcio:description>Routine stratospheric ozone profile from LIDAR at DWD-Hohenpeissenberg Observatory, Germany. See: doi:10.5194/amt-2-125-2009</eocdcio:description>
+<eocdcio:discipline>ATMOSPHERIC.CHEMISTRY</eocdcio:discipline>
+<eocdcio:acquisitionType>REMOTE.SENSING</eocdcio:acquisitionType>
+<eocdcio:dataLevel></eocdcio:dataLevel>
+<eocdcio:dataVariable>ALTITUDE||</eocdcio:dataVariable>
+<eocdcio:dataVariable>ALTITUDE.INSTRUMENT||</eocdcio:dataVariable>
+<eocdcio:dataVariable>DATETIME||</eocdcio:dataVariable>
+<eocdcio:dataVariable>DATETIME.START||</eocdcio:dataVariable>
+<eocdcio:dataVariable>DATETIME.STOP||</eocdcio:dataVariable>
+<eocdcio:dataVariable>INTEGRATION.TIME||</eocdcio:dataVariable>
+<eocdcio:dataVariable>LATITUDE.INSTRUMENT||</eocdcio:dataVariable>
+<eocdcio:dataVariable>LONGITUDE.INSTRUMENT||</eocdcio:dataVariable>
+<eocdcio:dataVariable>O3.MIXING.RATIO.VOLUME|DERIVED|</eocdcio:dataVariable>
+<eocdcio:dataVariable>O3.MIXING.RATIO.VOLUME|DERIVED|UNCERTAINTY.COMBINED.STANDARD</eocdcio:dataVariable>
+<eocdcio:dataVariable>O3.MIXING.RATIO.VOLUME|DERIVED|UNCERTAINTY.RANDOM.STANDARD</eocdcio:dataVariable>
+<eocdcio:dataVariable>O3.MIXING.RATIO.VOLUME|DERIVED|UNCERTAINTY.SYSTEMATIC.STANDARD</eocdcio:dataVariable>
+<eocdcio:dataVariable>O3.NUMBER.DENSITY|ABSORPTION.DIFFERENTIAL|</eocdcio:dataVariable>
+<eocdcio:dataVariable>O3.NUMBER.DENSITY|ABSORPTION.DIFFERENTIAL|RESOLUTION.ALTITUDE.DF.CUTOFF</eocdcio:dataVariable>
+<eocdcio:dataVariable>O3.NUMBER.DENSITY|ABSORPTION.DIFFERENTIAL|RESOLUTION.ALTITUDE.DF.NORMALIZED.FREQUENCY</eocdcio:dataVariable>
+<eocdcio:dataVariable>O3.NUMBER.DENSITY|ABSORPTION.DIFFERENTIAL|RESOLUTION.ALTITUDE.DF.TRANSFER.FUNCTION</eocdcio:dataVariable>
+<eocdcio:dataVariable>O3.NUMBER.DENSITY|ABSORPTION.DIFFERENTIAL|RESOLUTION.ALTITUDE.IMPULSE.RESPONSE</eocdcio:dataVariable>
+<eocdcio:dataVariable>O3.NUMBER.DENSITY|ABSORPTION.DIFFERENTIAL|RESOLUTION.ALTITUDE.IMPULSE.RESPONSE.FWHM</eocdcio:dataVariable>
+<eocdcio:dataVariable>O3.NUMBER.DENSITY|ABSORPTION.DIFFERENTIAL|UNCERTAINTY.COMBINED.STANDARD</eocdcio:dataVariable>
+<eocdcio:dataVariable>O3.NUMBER.DENSITY|ABSORPTION.DIFFERENTIAL|UNCERTAINTY.RANDOM.STANDARD</eocdcio:dataVariable>
+<eocdcio:dataVariable>O3.NUMBER.DENSITY|ABSORPTION.DIFFERENTIAL|UNCERTAINTY.SYSTEMATIC.STANDARD</eocdcio:dataVariable>
+<eocdcio:dataVariable>PRESS</eocdcio:dataVariable>
+<eocdcio:origin>EXPERIMENTAL</eocdcio:origin>
+<eocdcio:originator>
+<eocdcio:PersonIdentification>
+<eocdcio:personName>Steinbrecht,Wolfgang</eocdcio:personName>
+</eocdcio:PersonIdentification>
+</eocdcio:originator>
+<eocdcio:investigator>
+<eocdcio:PersonIdentification>
+<eocdcio:personName>Steinbrecht,Wolfgang</eocdcio:personName>
+</eocdcio:PersonIdentification>
+</eocdcio:investigator>
+<eocdcio:submitter>
+<eocdcio:PersonIdentification>
+<eocdcio:personName>Steinbrecht,Wolfgang</eocdcio:personName>
+</eocdcio:PersonIdentification>
+</eocdcio:submitter>
+</eocdcio:CorrelativeProductMetaData>
+</gml:metaDataProperty>
+<gml:validTime>
+<gml:TimePeriod gml:id="EVDC_1198944_T">
+<gml:beginPosition>2017-04-30T19:56:16Z</gml:beginPosition>
+<gml:endPosition>2017-05-01T03:09:20Z</gml:endPosition>
+</gml:TimePeriod>
+</gml:validTime>
+<gml:using>
+<eocdcio:CorrelativeProductEquipment gml:id="EVDC_1198944_E">
+<eocdcio:platform>GROUNDBASED</eocdcio:platform>
+<eocdcio:instrumentModelType>LIDAR.O3</eocdcio:instrumentModelType>
+<eocdcio:instrumentModelOrganisation>DWD</eocdcio:instrumentModelOrganisation>
+<eocdcio:instrumentModelIdentifier>001</eocdcio:instrumentModelIdentifier>
+</eocdcio:CorrelativeProductEquipment>
+</gml:using>
+<gml:target>
+<eocdcio:CorrelativeProductSpatialExtent gml:id="EVDC_1198944_SE">
+<eocdcio:fixedLocationName>HOHENPEISSENBERG</eocdcio:fixedLocationName>
+<eocdcio:pointLocation>
+<gml:Point gml:id="EVDC_1198944_P1" srsName="CRS:84">
+<gml:pos>47.8 11.02</gml:pos>
+</gml:Point>
+</eocdcio:pointLocation>
+<eocdcio:lowestAltitude>12820.0</eocdcio:lowestAltitude>
+<eocdcio:highestAltitude>70390.0</eocdcio:highestAltitude>
+</eocdcio:CorrelativeProductSpatialExtent>
+</gml:target>
+<gml:resultOf>
+<eocdcio:CorrelativeProductResult gml:id="EVDC_1198944_PR">
+<eocdcio:product>
+<eocdcio:ProductInformation>
+<eocdcio:onlineResourceURL>ftp://zardoz.nilu.no/nadir/evdc/data/groundbased/lidar.o3/hohenpeissenberg/groundbased_lidar.o3_dwd001_hohenpeissenberg_20170430t195616z_20170501t030920z_001.hdf</eocdcio:onlineResourceURL>
+<eocdcio:fileAccessConstraints>This file may only be accessed by ....</eocdcio:fileAccessConstraints>
+<eocdcio:dataFileHash>9e107d9d372bb6826bd81d3542a419d6</eocdcio:dataFileHash>
+<eocdcio:fileFormat/>
+<eocdcio:cloudCoverPercentage uom="%">12</eocdcio:cloudCoverPercentage>
+<eocdcio:snowCoverPercentage uom="%">0</eocdcio:snowCoverPercentage>
+</eocdcio:ProductInformation>
+</eocdcio:product>
+</eocdcio:CorrelativeProductResult>
+</gml:resultOf>
+</eocdcio:CorrelativeProduct>
+</metadata></record>
+<record><header><identifier>urn:x-dcio:evdc:1198945</identifier><datestamp>2017-05-03</datestamp><setSpec>dcio</setSpec><setSpec>eocdcio</setSpec></header><metadata><eocdcio:CorrelativeProduct xmlns:eocdcio="http://earth.esa.int/eocdcio" xmlns:str="http://exslt.org/strings" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="EVDC_1198945" version="0.8.0">
+<gml:metaDataProperty>
+<eocdcio:CorrelativeProductMetaData>
+<eocdcio:fileIdentifier>urn:x-eocdcio:evdc:1198945</eocdcio:fileIdentifier>
+<eocdcio:metaDataUpdateDate>2017-05-03T12:06:21Z</eocdcio:metaDataUpdateDate>
+<eocdcio:fileGenerationDate>2017-05-02T09:49:16Z</eocdcio:fileGenerationDate>
+<eocdcio:description>Routine stratospheric ozone profile from LIDAR at DWD-Hohenpeissenberg Observatory, Germany. See: doi:10.5194/amt-2-125-2009</eocdcio:description>
+<eocdcio:discipline>ATMOSPHERIC.CHEMISTRY</eocdcio:discipline>
+<eocdcio:acquisitionType>REMOTE.SENSING</eocdcio:acquisitionType>
+<eocdcio:dataLevel></eocdcio:dataLevel>
+<eocdcio:dataVariable>ALTITUDE||</eocdcio:dataVariable>
+<eocdcio:dataVariable>ALTITUDE.INSTRUMENT||</eocdcio:dataVariable>
+<eocdcio:dataVariable>DATETIME||</eocdcio:dataVariable>
+<eocdcio:dataVariable>DATETIME.START||</eocdcio:dataVariable>
+<eocdcio:dataVariable>DATETIME.STOP||</eocdcio:dataVariable>
+<eocdcio:dataVariable>INTEGRATION.TIME||</eocdcio:dataVariable>
+<eocdcio:dataVariable>LATITUDE.INSTRUMENT||</eocdcio:dataVariable>
+<eocdcio:dataVariable>LONGITUDE.INSTRUMENT||</eocdcio:dataVariable>
+<eocdcio:dataVariable>O3.MIXING.RATIO.VOLUME|DERIVED|</eocdcio:dataVariable>
+<eocdcio:dataVariable>O3.MIXING.RATIO.VOLUME|DERIVED|UNCERTAINTY.COMBINED.STANDARD</eocdcio:dataVariable>
+<eocdcio:dataVariable>O3.MIXING.RATIO.VOLUME|DERIVED|UNCERTAINTY.RANDOM.STANDARD</eocdcio:dataVariable>
+<eocdcio:dataVariable>O3.MIXING.RATIO.VOLUME|DERIVED|UNCERTAINTY.SYSTEMATIC.STANDARD</eocdcio:dataVariable>
+<eocdcio:dataVariable>O3.NUMBER.DENSITY|ABSORPTION.DIFFERENTIAL|</eocdcio:dataVariable>
+<eocdcio:dataVariable>O3.NUMBER.DENSITY|ABSORPTION.DIFFERENTIAL|RESOLUTION.ALTITUDE.DF.CUTOFF</eocdcio:dataVariable>
+<eocdcio:dataVariable>O3.NUMBER.DENSITY|ABSORPTION.DIFFERENTIAL|RESOLUTION.ALTITUDE.DF.NORMALIZED.FREQUENCY</eocdcio:dataVariable>
+<eocdcio:dataVariable>O3.NUMBER.DENSITY|ABSORPTION.DIFFERENTIAL|RESOLUTION.ALTITUDE.DF.TRANSFER.FUNCTION</eocdcio:dataVariable>
+<eocdcio:dataVariable>O3.NUMBER.DENSITY|ABSORPTION.DIFFERENTIAL|RESOLUTION.ALTITUDE.IMPULSE.RESPONSE</eocdcio:dataVariable>
+<eocdcio:dataVariable>O3.NUMBER.DENSITY|ABSORPTION.DIFFERENTIAL|RESOLUTION.ALTITUDE.IMPULSE.RESPONSE.FWHM</eocdcio:dataVariable>
+<eocdcio:dataVariable>O3.NUMBER.DENSITY|ABSORPTION.DIFFERENTIAL|UNCERTAINTY.COMBINED.STANDARD</eocdcio:dataVariable>
+<eocdcio:dataVariable>O3.NUMBER.DENSITY|ABSORPTION.DIFFERENTIAL|UNCERTAINTY.RANDOM.STANDARD</eocdcio:dataVariable>
+<eocdcio:dataVariable>O3.NUMBER.DENSITY|ABSORPTION.DIFFERENTIAL|UNCERTAINTY.SYSTEMATIC.STANDARD</eocdcio:dataVariable>
+<eocdcio:dataVariable>PRESS</eocdcio:dataVariable>
+<eocdcio:origin>EXPERIMENTAL</eocdcio:origin>
+<eocdcio:originator>
+<eocdcio:PersonIdentification>
+<eocdcio:personName>Steinbrecht,Wolfgang</eocdcio:personName>
+</eocdcio:PersonIdentification>
+</eocdcio:originator>
+<eocdcio:investigator>
+<eocdcio:PersonIdentification>
+<eocdcio:personName>Steinbrecht,Wolfgang</eocdcio:personName>
+</eocdcio:PersonIdentification>
+</eocdcio:investigator>
+<eocdcio:submitter>
+<eocdcio:PersonIdentification>
+<eocdcio:personName>Steinbrecht,Wolfgang</eocdcio:personName>
+</eocdcio:PersonIdentification>
+</eocdcio:submitter>
+</eocdcio:CorrelativeProductMetaData>
+</gml:metaDataProperty>
+<gml:validTime>
+<gml:TimePeriod gml:id="EVDC_1198945_T">
+<gml:beginPosition>2017-04-29T19:59:10Z</gml:beginPosition>
+<gml:endPosition>2017-04-30T03:12:23Z</gml:endPosition>
+</gml:TimePeriod>
+</gml:validTime>
+<gml:using>
+<eocdcio:CorrelativeProductEquipment gml:id="EVDC_1198945_E">
+<eocdcio:platform>GROUNDBASED</eocdcio:platform>
+<eocdcio:instrumentModelType>LIDAR.O3</eocdcio:instrumentModelType>
+<eocdcio:instrumentModelOrganisation>DWD</eocdcio:instrumentModelOrganisation>
+<eocdcio:instrumentModelIdentifier>001</eocdcio:instrumentModelIdentifier>
+</eocdcio:CorrelativeProductEquipment>
+</gml:using>
+<gml:target>
+<eocdcio:CorrelativeProductSpatialExtent gml:id="EVDC_1198945_SE">
+<eocdcio:fixedLocationName>HOHENPEISSENBERG</eocdcio:fixedLocationName>
+<eocdcio:pointLocation>
+<gml:Point gml:id="EVDC_1198945_P1" srsName="CRS:84">
+<gml:pos>47.8 11.02</gml:pos>
+</gml:Point>
+</eocdcio:pointLocation>
+<eocdcio:lowestAltitude>9825.0</eocdcio:lowestAltitude>
+<eocdcio:highestAltitude>73680.0</eocdcio:highestAltitude>
+</eocdcio:CorrelativeProductSpatialExtent>
+</gml:target>
+<gml:resultOf>
+<eocdcio:CorrelativeProductResult gml:id="EVDC_1198945_PR">
+<eocdcio:product>
+<eocdcio:ProductInformation>
+<eocdcio:onlineResourceURL>ftp://zardoz.nilu.no/nadir/evdc/data/groundbased/lidar.o3/hohenpeissenberg/groundbased_lidar.o3_dwd001_hohenpeissenberg_20170429t195910z_20170430t031223z_001.hdf</eocdcio:onlineResourceURL>
+<eocdcio:fileAccessConstraints>This file may only be accessed by ....</eocdcio:fileAccessConstraints>
+<eocdcio:dataFileHash>9e107d9d372bb6826bd81d3542a419d6</eocdcio:dataFileHash>
+<eocdcio:fileFormat/>
+<eocdcio:cloudCoverPercentage uom="%">12</eocdcio:cloudCoverPercentage>
+<eocdcio:snowCoverPercentage uom="%">0</eocdcio:snowCoverPercentage>
+</eocdcio:ProductInformation>
+</eocdcio:product>
+</eocdcio:CorrelativeProductResult>
+</gml:resultOf>
+</eocdcio:CorrelativeProduct>
+</metadata></record>
+<record><header><identifier>urn:x-dcio:evdc:1198946</identifier><datestamp>2017-05-03</datestamp><setSpec>dcio</setSpec><setSpec>eocdcio</setSpec></header><metadata><eocdcio:CorrelativeProduct xmlns:eocdcio="http://earth.esa.int/eocdcio" xmlns:str="http://exslt.org/strings" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="EVDC_1198946" version="0.8.0">
+<gml:metaDataProperty>
+<eocdcio:CorrelativeProductMetaData>
+<eocdcio:fileIdentifier>urn:x-eocdcio:evdc:1198946</eocdcio:fileIdentifier>
+<eocdcio:metaDataUpdateDate>2017-05-03T12:06:24Z</eocdcio:metaDataUpdateDate>
+<eocdcio:fileGenerationDate>2017-05-02T08:11:52Z</eocdcio:fileGenerationDate>
+<eocdcio:description>FTIR vmr vertical profile data of CH4 at Zugspitze (Germany)</eocdcio:description>
+<eocdcio:discipline>ATMOSPHERIC.CHEMISTRY</eocdcio:discipline>
+<eocdcio:acquisitionType>REMOTE.SENSING</eocdcio:acquisitionType>
+<eocdcio:dataLevel></eocdcio:dataLevel>
+<eocdcio:dataVariable>ALTITUDE||</eocdcio:dataVariable>
+<eocdcio:dataVariable>ALTITUDE.BOUNDARIES||</eocdcio:dataVariable>
+<eocdcio:dataVariable>ALTITUDE.INSTRUMENT||</eocdcio:dataVariable>
+<eocdcio:dataVariable>ANGLE.SOLAR|AZIMUTH|</eocdcio:dataVariable>
+<eocdcio:dataVariable>ANGLE.SOLAR|ZENITH.ASTRONOMICAL|</eocdcio:dataVariable>
+<eocdcio:dataVariable>CH4.COLUMN|ABSORPTION.SOLAR|</eocdcio:dataVariable>
+<eocdcio:dataVariable>CH4.COLUMN|ABSORPTION.SOLAR|APRIORI</eocdcio:dataVariable>
+<eocdcio:dataVariable>CH4.COLUMN|ABSORPTION.SOLAR|AVK</eocdcio:dataVariable>
+<eocdcio:dataVariable>CH4.COLUMN|ABSORPTION.SOLAR|UNCERTAINTY.RANDOM.STANDARD</eocdcio:dataVariable>
+<eocdcio:dataVariable>CH4.COLUMN|ABSORPTION.SOLAR|UNCERTAINTY.SYSTEMATIC.STANDARD</eocdcio:dataVariable>
+<eocdcio:dataVariable>CH4.COLUMN.PARTIAL|ABSORPTION.SOLAR|</eocdcio:dataVariable>
+<eocdcio:dataVariable>CH4.COLUMN.PARTIAL|ABSORPTION.SOLAR|APRIORI</eocdcio:dataVariable>
+<eocdcio:dataVariable>CH4.MIXING.RATIO.VOLUME|ABSORPTION.SOLAR|</eocdcio:dataVariable>
+<eocdcio:dataVariable>CH4.MIXING.RATIO.VOLUME|ABSORPTION.SOLAR|APRIORI</eocdcio:dataVariable>
+<eocdcio:dataVariable>CH4.MIXING.RATIO.VOLUME|ABSORPTION.SOLAR|AVK</eocdcio:dataVariable>
+<eocdcio:dataVariable>CH4.MIXING.RATIO.VOLUME|ABSORPTION.SOLAR|UNCERTAINTY.RANDOM.COVARIANCE</eocdcio:dataVariable>
+<eocdcio:dataVariable>CH4.MIXING.RATIO.VOLUME|ABSORPTION.SOLAR|UNCERTAINTY.SYSTEMATIC.COVARIANCE</eocdcio:dataVariable>
+<eocdcio:dataVariable>DATETIME||</eocdcio:dataVariable>
+<eocdcio:dataVariable>H2O.COLUMN|ABSORPTION.SOLAR|</eocdcio:dataVariable>
+<eocdcio:dataVariable>H2O.MIXING.RATIO.VOLUME|ABSORPTION.SOLAR|</eocdcio:dataVariable>
+<eocdcio:dataVariable>INTEGRATION.TIME||</eocdcio:dataVariable>
+<eocdcio:dataVariable>LATITUDE.INSTRUMENT||</eocdcio:dataVariable>
+<eocdcio:dataVariable>LONGITUDE.INSTRUMENT||</eocdcio:dataVariable>
+<eocdcio:dataVariable>PRESSURE|INDEPENDENT|</eocdcio:dataVariable>
+<eocdcio:dataVariable>SURFACE.PRESSURE|INDEPENDENT|</eocdcio:dataVariable>
+<eocdcio:dataVariable>SURFACE.TEMPERATURE|INDEPENDENT|</eocdcio:dataVariable>
+<eocdcio:dataVariable>TEMPERATURE|INDEPENDENT|</eocdcio:dataVariable>
+<eocdcio:origin>EXPERIMENTAL</eocdcio:origin>
+<eocdcio:originator>
+<eocdcio:PersonIdentification>
+<eocdcio:personName>Rettinger,Markus</eocdcio:personName>
+</eocdcio:PersonIdentification>
+</eocdcio:originator>
+<eocdcio:investigator>
+<eocdcio:PersonIdentification>
+<eocdcio:personName>Sussmann,Ralf</eocdcio:personName>
+</eocdcio:PersonIdentification>
+</eocdcio:investigator>
+<eocdcio:submitter>
+<eocdcio:PersonIdentification>
+<eocdcio:personName>Rettinger,Markus</eocdcio:personName>
+</eocdcio:PersonIdentification>
+</eocdcio:submitter>
+</eocdcio:CorrelativeProductMetaData>
+</gml:metaDataProperty>
+<gml:validTime>
+<gml:TimePeriod gml:id="EVDC_1198946_T">
+<gml:beginPosition>2017-01-02T08:16:17Z</gml:beginPosition>
+<gml:endPosition>2017-03-23T09:07:26Z</gml:endPosition>
+</gml:TimePeriod>
+</gml:validTime>
+<gml:using>
+<eocdcio:CorrelativeProductEquipment gml:id="EVDC_1198946_E">
+<eocdcio:platform>GROUNDBASED</eocdcio:platform>
+<eocdcio:instrumentModelType>FTIR.CH4</eocdcio:instrumentModelType>
+<eocdcio:instrumentModelOrganisation>KIT.IMK.IFU</eocdcio:instrumentModelOrganisation>
+<eocdcio:instrumentModelIdentifier>001</eocdcio:instrumentModelIdentifier>
+</eocdcio:CorrelativeProductEquipment>
+</gml:using>
+<gml:target>
+<eocdcio:CorrelativeProductSpatialExtent gml:id="EVDC_1198946_SE">
+<eocdcio:fixedLocationName>ZUGSPITZE</eocdcio:fixedLocationName>
+<eocdcio:pointLocation>
+<gml:Point gml:id="EVDC_1198946_P1" srsName="CRS:84">
+<gml:pos>47.4237 10.9836</gml:pos>
+</gml:Point>
+</eocdcio:pointLocation>
+<eocdcio:lowestAltitude>2957.0</eocdcio:lowestAltitude>
+<eocdcio:highestAltitude>120000.0</eocdcio:highestAltitude>
+</eocdcio:CorrelativeProductSpatialExtent>
+</gml:target>
+<gml:resultOf>
+<eocdcio:CorrelativeProductResult gml:id="EVDC_1198946_PR">
+<eocdcio:product>
+<eocdcio:ProductInformation>
+<eocdcio:onlineResourceURL>ftp://zardoz.nilu.no/nadir/evdc/data/groundbased/ftir.ch4/zugspitze/groundbased_ftir.ch4_kit.imk.ifu001_zugspitze_20170102t081617z_20170323t090726z_003.hdf</eocdcio:onlineResourceURL>
+<eocdcio:fileAccessConstraints>This file may only be accessed by ....</eocdcio:fileAccessConstraints>
+<eocdcio:dataFileHash>9e107d9d372bb6826bd81d3542a419d6</eocdcio:dataFileHash>
+<eocdcio:fileFormat/>
+<eocdcio:cloudCoverPercentage uom="%">12</eocdcio:cloudCoverPercentage>
+<eocdcio:snowCoverPercentage uom="%">0</eocdcio:snowCoverPercentage>
+</eocdcio:ProductInformation>
+</eocdcio:product>
+</eocdcio:CorrelativeProductResult>
+</gml:resultOf>
+</eocdcio:CorrelativeProduct>
+</metadata></record>
+</ListRecords></OAI-PMH>
